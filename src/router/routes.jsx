@@ -2,4 +2,7 @@
 
 export const HOME = "/";
 
-export const ABOUT = "/about";
+// ! Recurden que el nombre debe estar acompañado de :
+export const ABOUT = "/about/:slug";
+
+export const ADMIN = "/admin";
